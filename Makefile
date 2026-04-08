@@ -2,7 +2,7 @@
 
 include dep/dpf/Makefile.base.mk
 
-PLUGINS = WSTD_EQ
+PLUGINS = WSTD_MSEQ
 PREGEN = $(PLUGINS:%=%/plugin/source)
 
 all: build

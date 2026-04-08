@@ -1,5 +1,5 @@
 {
-    "name": "WSTD_EQ",
+    "name": "WSTD_MSEQ",
     "dpf": {
         "dpf_path": "../dep/",
         "makefile_dep": [
@@ -8,21 +8,21 @@
         "enable_ui": true,
         "enable_modgui": false,
         "ui_size": {
-            "width": 120,
-            "height": 520
+            "width": 228,
+            "height": 537
         },
         "midi_input": 0,
         "midi_output": 0,
         "denormals": false,
-        "version": "1, 1, 1",
+        "version": "0, 1, 0",
         "maker": "Wasted Audio",
         "brand_id": "Wstd",
         "brand_id_no_vst3": true,
-        "unique_id": "WsEQ",
+        "unique_id": "WsMQ",
         "license": "GPL-3.0-or-later",
-        "homepage": "https://wasted.audio/software/wstd_eq",
-        "plugin_uri": "https://wasted.audio/software/wstd_eq",
-        "plugin_clap_id": "audio.wasted.wstd_eq",
+        "homepage": "https://wasted.audio/software/wstd_mseq",
+        "plugin_uri": "https://wasted.audio/software/wstd_mseq",
+        "plugin_clap_id": "audio.wasted.wstd_mseq",
         "plugin_formats": [
             "lv2_sep",
             "vst2",

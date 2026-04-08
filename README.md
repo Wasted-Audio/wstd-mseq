@@ -1,5 +1,5 @@
-Simple nasty EQ plugin.
+Simple nasty mid-side EQ plugin.
 
 Available under the GPL-3.0-or-later.
 
-![](WSTD_EQ.png)
+![](WSTD_MSEQ.png)
