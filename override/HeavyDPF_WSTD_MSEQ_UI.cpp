@@ -203,7 +203,7 @@ protected:
             ImGui::PopStyleColor();
             // M/S background
             ImGui::PushStyleColor(ImGuiCol_FrameBg, ColorBright(WstdTitleBgActive, -15.0f, false));
-            drawList->AddRectFilled(ImVec2(0, 0), ImVec2(ImGui::GetWindowWidth(), 62), ImGui::GetColorU32(ImGuiCol_FrameBg));
+            drawList->AddRectFilled(ImVec2(0, 0), ImVec2(ImGui::GetWindowWidth(), 62*scaleFactor), ImGui::GetColorU32(ImGuiCol_FrameBg));
             ImGui::PopStyleColor();
 
             ImGui::BeginGroup();
