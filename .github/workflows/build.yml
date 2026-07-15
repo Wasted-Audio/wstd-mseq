@@ -88,7 +88,7 @@ jobs:
 
       - uses: distrho/dpf-makefile-action@v1
         env:
-          MACOS_PKG_NAME: "WSTD-EQ"
+          MACOS_PKG_NAME: "WSTD-MSEQ"
           MACOS_PKG_LICENSE_FILE: "${{ github.workspace }}/LICENSE"
           MACOS_PKG_WELCOME_TXT: "${{ github.workspace }}/welcome.txt"
           MACOS_APP_DEV_ID: ${{ secrets.MACOS_APP_DEV_ID }}
