@@ -47,6 +47,8 @@ public:
     ImGuiPluginUI()
         : UI(DISTRHO_UI_DEFAULT_WIDTH, DISTRHO_UI_DEFAULT_HEIGHT)
     {
+        setGeometryConstraints(DISTRHO_UI_DEFAULT_WIDTH, DISTRHO_UI_DEFAULT_HEIGHT, true);
+
         ImGuiIO& io(ImGui::GetIO());
 
         ImFontConfig fc;
